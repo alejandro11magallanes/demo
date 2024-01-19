@@ -1,0 +1,55 @@
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.header-titulo {
+  background-color: #5aadc4;
+  display: flex;
+ justify-content: center;
+}
+
+.header-titulo h1{
+  color: black;
+  font-weight: 500;
+  padding: 5px 5px 10px 5px;
+  margin: 0%;
+}
+
+.login-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -100px;
+ 
+}
+.App-header {
+  background-image: url("./images/fondo.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
